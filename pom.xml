@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>smart_clinic.com</groupId>
-	<artifactId>Smart-Clinic-Management-System</artifactId>
+	<artifactId>Smart_Clinic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Smart-Clinic-Management-System</name>
+	<name>Smart_Clinic</name>
 	<description>Smart Clinic Management System using Spring Boot</description>
 	<url/>
 	<licenses>
