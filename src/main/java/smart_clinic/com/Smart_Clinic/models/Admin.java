@@ -1,8 +1,9 @@
-package smart_clinic.com.Smart.Clinic.models;
-
+package smart_clinic.com.Smart_Clinic.models;
+//package smart_clinic.com.smart.clinic.models;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 
 @Entity

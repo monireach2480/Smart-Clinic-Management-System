@@ -1,12 +1,13 @@
-package smart_clinic.com.smart.clinic;
+package smart_clinic.com.Smart_Clinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SmartClinicManagementSystemApplication {
+public class SmartClinicApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartClinicManagementSystemApplication.class, args);
+		SpringApplication.run(SmartClinicApplication.class, args);
 	}
+
 }

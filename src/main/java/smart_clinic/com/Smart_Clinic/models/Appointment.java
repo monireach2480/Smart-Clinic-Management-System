@@ -1,5 +1,6 @@
-package smart_clinic.com.Smart.Clinic.models;
-
+//package smart_clinic.com.Smart.Clinic.models;
+//package smart_clinic.com.smart.clinic.models;
+package smart_clinic.com.Smart_Clinic.models;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;

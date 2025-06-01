@@ -1,5 +1,6 @@
-package smart_clinic.com.Smart.Clinic.models;
-
+//package smart_clinic.com.Smart.Clinic.models;
+//package smart_clinic.com.smart.clinic.models;
+package smart_clinic.com.Smart_Clinic.models;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
