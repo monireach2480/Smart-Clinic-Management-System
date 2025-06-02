@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/adminDashboard.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- Utilities and Components -->
+    <script src="../js/util.js" defer></script>
+    <script src="../js/render.js" defer></script>
+    <script src="../js/components/header.js" defer></script>
+    <script src="../js/components/footer.js" defer></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div id="header"></div>
+
+        <main class="main-content">
+            <h2>Admin Dashboard</h2>
+            <div class="controls">
+                <input type="text" id="searchBar" placeholder="Search doctors...">
+
+                <select id="sortTime">
+                    <option value="">Sort by Time</option>
+                    <option value="asc">Morning</option>
+                    <option value="desc">Evening</option>
+                </select>
+
+                <select id="filterSpecialty">
+                    <option value="">Filter by Specialty</option>
+                    <option value="cardiology">Cardiology</option>
+                    <option value="neurology">Neurology</option>
+                    <option value="orthopedics">Orthopedics</option>
+                    <!-- Add more specialties if needed -->
+                </select>
+
+                <button id="addDoctorBtn" class="adminBtn">Add Doctor</button>
+            </div>
+
+            <div id="content" class="doctor-list"></div>
+        </main>
+
+        <div id="footer"></div>
+    </div>
+</div>
+
+<!-- Modal for Add Doctor -->
+<div id="modal" class="modal">
+    <span id="closeModal" class="close">&times;</span>
+    <div id="modal-body"></div>
+</div>
+
+<script type="module" src="../js/services/adminDashboard.js" defer></script>
+</body>
+
+</html>
