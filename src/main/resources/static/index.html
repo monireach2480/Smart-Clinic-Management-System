@@ -1,0 +1,49 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic System</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to Clinic Management System</h1>
+</header>
+<main>
+    <div class="role-selection">
+        <button id="admin-login-btn">Admin</button>
+        <button id="doctor-login-btn">Doctor</button>
+    </div>
+
+    <!-- Modals -->
+    <div id="admin-login-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Admin Login</h2>
+            <input type="text" id="admin-username" placeholder="Username">
+            <input type="password" id="admin-password" placeholder="Password">
+            <button onclick="adminLoginHandler()">Login</button>
+        </div>
+    </div>
+
+    <div id="doctor-login-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Doctor Login</h2>
+            <input type="email" id="doctor-email" placeholder="Email">
+            <input type="password" id="doctor-password" placeholder="Password">
+            <button onclick="doctorLoginHandler()">Login</button>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Clinic System</p>
+</footer>
+
+<script type="module" src="js/services/index.js" defer></script>
+</body>
+</html>
